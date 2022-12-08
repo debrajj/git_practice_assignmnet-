@@ -1,8 +1,12 @@
 let prime=10 ;
-
-if (prime%2==0){
-console.log("Yes"){
-
-else{
-console.log("No)
+varr p=0
+for(var i=2;i<prime;i++)
+{
+if(prime%i==0){
+p=1;
+}}
+if(p==0){
+console.log("prime");
+}else{
+console.log("not prime")
 }
